@@ -56,6 +56,7 @@ www.youtube.com##.ytwHowThisWasMadeSectionViewModelHost
 www.youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer.style-scope
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 www.youtube.com##.ytSuggestionComponentThumbnailContainer
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
 
 ! Youtube Mobile
 
