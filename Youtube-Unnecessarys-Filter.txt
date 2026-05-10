@@ -75,6 +75,7 @@ www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?
 www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 www.youtube.com##ytd-rich-item-renderer:has(a[href*="list=LL"])
 www.youtube.com##ytd-rich-shelf-renderer:has(#title-container a[href="/playlist?list=LL"])
+www.youtube.com###visible-banners > .yt-live-chat-banner-manager.style-scope
 
 ! Youtube Mobile
 
