@@ -17,63 +17,62 @@ www.youtube.com##+js(aeld, blur)
 
 ! Does work with the Ublock Origin Lite and Ublock Origin Lite extension.
 
-www.youtube.com###toast
-www.youtube.com##.ytp-prev-button.ytp-button
-www.youtube.com##.ytp-next-button.ytp-button.ytp-playlist-ui
-www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
-www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
-www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
-www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
-www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
-www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
-www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
-www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 www.youtube.com###country-code
-www.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope
-www.youtube.com##.ytThumbnailHoverOverlayToggleActionsViewModelHost
-www.youtube.com##ytd-menu-popup-renderer tp-yt-paper-item:has(svg path[d^="M12 1C5.925 1 1 5.925"])
-www.youtube.com##ytd-guide-section-renderer:has(a[href^="/premium"])
-www.youtube.com##a[href="/feed/downloads"]:upward(ytd-mini-guide-entry-renderer)
 www.youtube.com###guide-links-primary
 www.youtube.com###guide-links-secondary
-www.youtube.com###voice-search-button
-www.youtube.com##ytd-guide-section-renderer:has(a[href^="/gaming"])
-www.youtube.com##.ytSuggestionComponentNewVideoContainer
-www.youtube.com##ytd-guide-section-renderer ytd-guide-entry-renderer:has(a[href^="/@"])
-www.youtube.com##ytd-guide-collapsible-entry-renderer.ytd-guide-section-renderer.style-scope
-www.youtube.com##.ytd-guide-entry-renderer.style-scope.arrow-icon
-www.youtube.com###video-summary
+www.youtube.com###info > .yt-formatted-string.style-scope.yt-simple-endpoint
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
+www.youtube.com###toast
+www.youtube.com###video-summary
+www.youtube.com###voice-search-button
+www.youtube.com##.html5-video-player .ytp-fullscreen-grid
+www.youtube.com##.opened
+www.youtube.com##.ytSuggestionComponentNewVideoContainer
+www.youtube.com##.ytSuggestionComponentThumbnailContainer
+www.youtube.com##.ytThumbnailHoverOverlayToggleActionsViewModelHost
+www.youtube.com##.ytd-guide-entry-renderer.style-scope.arrow-icon
+www.youtube.com##.ytp-fullscreen-grid-expand-button
 www.youtube.com##.ytp-fullscreen-quick-actions
 www.youtube.com##.ytp-gradient-bottom
-www.youtube.com##.ytp-fullscreen-grid-expand-button
-www.youtube.com##.html5-video-player .ytp-fullscreen-grid
+www.youtube.com##.ytp-next-button.ytp-button.ytp-playlist-ui
+www.youtube.com##.ytp-pause-overlay
+www.youtube.com##.ytp-prev-button.ytp-button
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelHost
-www.youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer.style-scope
-www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
-www.youtube.com##.ytSuggestionComponentThumbnailContainer
-www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-rich-shelf-renderer:has(a[href^="/watch"]):not(:has(a[href^="/playlist"])):not(:has(a[href^="/feed/history"]))
 www.youtube.com##description-inline-expander > .ytd-watch-metadata.style-scope
+www.youtube.com##yt-confirm-dialog-renderer
+www.youtube.com##yt-live-chat-poll-renderer
+www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-guide-collapsible-entry-renderer.ytd-guide-section-renderer.style-scope
+www.youtube.com##ytd-guide-section-renderer ytd-guide-entry-renderer:has(a[href^="/@"])
+www.youtube.com##ytd-guide-section-renderer:has(a[href^="/gaming"])
+www.youtube.com##ytd-guide-section-renderer:has(a[href^="/premium"])
+www.youtube.com##ytd-menu-popup-renderer tp-yt-paper-item:has(svg path[d^="M12 1C5.925 1 1 5.925"])
 www.youtube.com##ytd-metadata-row-container-renderer
-www.youtube.com###info > .yt-formatted-string.style-scope.yt-simple-endpoint
+www.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope
+www.youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-rich-shelf-renderer:has(a[href^="/watch"]):not(:has(a[href^="/playlist"])):not(:has(a[href^="/feed/history"]))
+www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
+www.youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer.style-scope
+www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##.shelf-header-layout-wiz__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
+www.youtube.com##.yt-shelf-header-layout__title:has-text(/(^| )Shorts( |$)/i):upward(grid-shelf-view-model)
+www.youtube.com##a[href="/feed/downloads"]:upward(ytd-mini-guide-entry-renderer)
 www.youtube.com##a[href^="/hashtag/"]:upward(span)
 www.youtube.com##span.yt-core-attributed-string--link-inherit-color:has-text(/^ *$/)
-www.youtube.com##yt-confirm-dialog-renderer
-www.youtube.com##.opened
-www.youtube.com##yt-confirm-dialog-renderer
-www.youtube.com##.ytp-pause-overlay
-www.youtube.com##yt-live-chat-poll-renderer
+www.youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
+www.youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+www.youtube.com##yt-tab-shape:has-text(/^Shorts$/)
+www.youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
+www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
+www.youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
+www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+www.youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+www.youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
 
 ! Youtube Mobile
 
