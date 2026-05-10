@@ -70,7 +70,6 @@ www.youtube.com###info > .yt-formatted-string.style-scope.yt-simple-endpoint
 www.youtube.com##a[href^="/hashtag/"]:upward(span)
 www.youtube.com##span.yt-core-attributed-string--link-inherit-color:has-text(/^ *$/)
 www.youtube.com##yt-confirm-dialog-renderer
-www.youtube.com##tp-yt-paper-dialog
 www.youtube.com##.opened
 www.youtube.com##yt-confirm-dialog-renderer
 www.youtube.com##.ytp-pause-overlay
