@@ -74,6 +74,7 @@ www.youtube.com##tp-yt-paper-dialog
 www.youtube.com##.opened
 www.youtube.com##yt-confirm-dialog-renderer
 www.youtube.com##.ytp-pause-overlay
+www.youtube.com##yt-live-chat-poll-renderer
 
 ! Youtube Mobile
 
