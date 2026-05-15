@@ -39,7 +39,6 @@ www.youtube.com##.ytp-pause-overlay
 www.youtube.com##.ytp-prev-button.ytp-button
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelHost
 www.youtube.com##description-inline-expander > .ytd-watch-metadata.style-scope
-www.youtube.com##yt-confirm-dialog-renderer
 www.youtube.com##yt-live-chat-poll-renderer
 www.youtube.com##ytd-feed-nudge-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
